@@ -1,7 +1,7 @@
 <template>
  <!-- <img alt="Vue logo" src="./assets/logo.png" />
  <HelloWorld msg="Hello Vue 3.0 + Vite" /> -->
- <router-view></router-view>
+ <router-view ></router-view>
 </template>
 
 <script>
@@ -22,11 +22,11 @@ export default {
  },
  mounted() {
   if (this._isMobile()) {
-   alert("手机端");
+  //  alert("手机端");
    this.$router.replace("/m_index");
   } else {
-   alert("pc端");
-   this.$router.replace("/pc_index");
+  //  alert("pc端");
+   this.$router.replace("/pc_index/home");
   }
  },
 };
