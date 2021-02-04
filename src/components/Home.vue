@@ -55,8 +55,8 @@ export default defineComponent({
     type: ["解密"],
     introduce:
      "指尖滑动就能收获属于你的一个武侠解谜体验。通过层层关卡，修炼海量武林秘籍，体验最完美的武侠。",
-    icon: "src/assets/img/cwyd-icon.png",
-    weixin: "src/assets/img/cwyd-weixin.jpg",
+    icon: "/img/cwyd-icon.png",
+    weixin: "/img/cwyd-weixin.jpg",
    },
    {
     id: 2,
@@ -64,8 +64,8 @@ export default defineComponent({
     type: ["休闲", "益智"],
     introduce:
      "独创拼字玩法，休闲与教育兼具，轻松与挑战并存。休闲放松的同时，还能寓教于乐，别具一格的中华文化体验。",
-    icon: "src/assets/img/cjdtz-icon.png",
-    weixin: "src/assets/img/cjdtz-weixin.jpg",
+    icon: "/img/cjdtz-icon.png",
+    weixin: "/img/cjdtz-weixin.jpg",
    },
    {
     id: 3,
@@ -73,8 +73,8 @@ export default defineComponent({
     type: ["休闲", "益智"],
     introduce:
      "一款同时包含解密，puzzle，消除，能满足你所有需求的沙雕武侠风小游戏！",
-    icon: "src/assets/img/ybnt-icon.png",
-    weixin: "src/assets/img/ybnt-weixin.jpg",
+    icon: "/img/ybnt-icon.png",
+    weixin: "/img/ybnt-weixin.jpg",
    },
    {
     id: 4,
@@ -82,8 +82,8 @@ export default defineComponent({
     type: ["脸控", "跑酷"],
     introduce:
      "摇摇头，圣诞火箭上月球！转转脸，红包福袋不停捡！还能通过奖励金币升级火箭配置，带你飞向更高的太空。",
-    icon: "src/assets/img/ctxhj-icon.png",
-    weixin: "src/assets/img/ctxhj-weixin.jpg",
+    icon: "/img/ctxhj-icon.png",
+    weixin: "/img/ctxhj-weixin.jpg",
    },
    {
     id: 5,
@@ -91,8 +91,8 @@ export default defineComponent({
     type: ["休闲", "益智", "桌游", "对战"],
     introduce:
      "简单经典的游戏规则，Q萌诙谐的游戏画面，令人愉快的游戏配乐，绝对完美的休闲体验！",
-    icon: "src/assets/img/qddzz-icon.png",
-    weixin: "src/assets/img/qddzz-weixin.jpg",
+    icon: "/img/qddzz-icon.png",
+    weixin: "/img/qddzz-weixin.jpg",
    },
   ]);
   onMounted(() => {
@@ -112,7 +112,7 @@ export default defineComponent({
 </script>
 
 <style scoped>
-@import "../assets/css/home.css";
+@import "../../public/css/home.css";
 
 .swiper-container {
  --swiper-theme-color: #ff6600;

@@ -4,7 +4,7 @@
   <nav>
    <a class="logo" href="home">
     <!-- <h1>麦迪文</h1> -->
-    <img src="../assets/img/logo.png" alt="logo" />
+    <img src="/img/logo.png" alt="logo" />
    </a>
    <ul class="bars" @click="handleBars($event)">
     <li class="bars_item">
@@ -34,7 +34,7 @@
     >
      <div class="wechat-box" v-if="isvVisible">
       <!-- <div class="wechat-hover"></div> -->
-      <img class="wechat-code" src="../assets/img/weixin.jpg" alt="weixin" />
+      <img class="wechat-code" src="/img/weixin.jpg" alt="weixin" />
       <div class="ant-dropdown-arrow"></div>
      </div>
     </div>
@@ -71,5 +71,5 @@ export default {
 
 
 <style scoped>
-@import "../assets/css/pc.css";
+@import "../../public/css/pc.css";
 </style>
